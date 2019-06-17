@@ -12,7 +12,7 @@ class AppTest{
 		System.out.println(System.getProperty("user.dir")+"\\resourses\\chromedriver.exe");
 		
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\dtf8207\\eclipse-workspace\\WebViewerTest\\resourses\\chromedriver.exe");
+				System.getProperty("user.dir")+"\\resourses\\chromedriver.exe");
 		System.out.println("test");
 		System.out.println("test1");
 		
